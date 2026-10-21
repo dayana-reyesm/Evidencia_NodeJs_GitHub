@@ -1,0 +1,33 @@
+{
+  "name": "evidencia-nodejs-github",
+  "version": "1.0.0",
+  "description": "Proyecto academico con Node.js, Express, HTML y Git",
+  "keywords": [
+    "nodejs",
+    "express",
+    "html",
+    "git"
+  ],
+  "homepage": "https://github.com/dayana-reyesm/Evidencia_NodeJs_GitHub#readme",
+  "bugs": {
+    "url": "https://github.com/dayana-reyesm/Evidencia_NodeJs_GitHub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayana-reyesm/Evidencia_NodeJs_GitHub.git"
+  },
+  "license": "MIT",
+  "author": "Whynny Dayana Reyes Muñoz",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+     "dev": "nodemon server.js",
+  "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
